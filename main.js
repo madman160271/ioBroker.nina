@@ -177,7 +177,7 @@ class Nina extends utils.Adapter {
                             this.status[areaCode].numberOfWarn = parseInt(this.status[areaCode].numberOfWarn) - 1;
                             return;
                         }
-                        if (this.config.ignoreCorona && bucket === "bbk.corona") {
+                        if (this.config.ignoreCorona && bucket === "bbk.coronavirus") {
                             this.status[areaCode].numberOfWarn = parseInt(this.status[areaCode].numberOfWarn) - 1;
                             return;
                         }
